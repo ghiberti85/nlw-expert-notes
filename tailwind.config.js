@@ -5,7 +5,13 @@ export default {
     "./src/**/*.tsx",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        fontFamily:{
+          sans: ['Inter', 'sans-serif']
+        }
+      }
+    },
   },
   plugins: [],
 }
